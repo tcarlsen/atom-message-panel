@@ -1,0 +1,26 @@
+{
+  "name": "atom-message-panel",
+  "version": "0.0.0",
+  "description": "An easy way to display your messages in Atom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tcarlsen/atom-message-panel"
+  },
+  "keywords": [
+    "atom",
+    "helper",
+    "handler",
+    "error",
+    "message"
+  ],
+  "author": "tcarlsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcarlsen/atom-message-panel/issues"
+  },
+  "homepage": "https://github.com/tcarlsen/atom-message-panel"
+}
