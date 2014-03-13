@@ -37,6 +37,8 @@ append.message(msg, className)
 append.lineMessage(line, character, msg, preview, className)
 // Lets you add classes to specific line numbers
 append.lineIndicators(lines, className)
+// Makes it posible to remove the added custom classes
+remove.lineIndicators(className)
 ```
 
 ## License

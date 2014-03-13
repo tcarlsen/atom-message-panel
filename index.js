@@ -101,5 +101,13 @@ module.exports = {
 
             updateView();
         }
+    },
+    remove: {
+        lineIndicators: function (className) {
+            'use strict';
+
+            $('.line-number')
+                .removeClass(className);
+        }
     }
 };
