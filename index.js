@@ -89,6 +89,8 @@ module.exports = {
 
             var i,
                 updateView = function () {
+                    $('.line-number').removeClass(className);
+
                     for (i = 0; i < lines.length; i += 1) {
                         $('.line-number-' + (lines[i] - 1))
                             .addClass(className);
@@ -100,14 +102,6 @@ module.exports = {
             });
 
             updateView();
-        }
-    },
-    remove: {
-        lineIndicators: function (className) {
-            'use strict';
-
-            $('.line-number')
-                .removeClass(className);
         }
     }
 };
