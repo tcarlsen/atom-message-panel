@@ -34,7 +34,9 @@ append.header(text, className)
 // Tell the people what your fell
 append.message(msg, className)
 // A line connected message, that will send the user to that line on click
-append.lineMessagefunction(line, character, msg, preview, className)
+append.lineMessage(line, character, msg, preview, className)
+// Lets you add classes to specific line numbers
+append.lineIndicators(lines, className)
 ```
 
 ## License

@@ -83,6 +83,23 @@ module.exports = {
                 .html(preview)
                 .click(goToLine)
                 .appendTo('.am-panel .panel-body');
+        },
+        lineIndicators: function (lines, className) {
+            'use strict';
+
+            var i,
+                updateView = function () {
+                    for (i = 0; i < lines.length; i += 1) {
+                        $('.line-number-' + (lines[i] - 1))
+                            .addClass(className);
+                    }
+                };
+
+            atom.workspaceView.on('editor:display-updated', function () {
+                updateView();
+            });
+
+            updateView();
         }
     }
 };
