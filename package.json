@@ -1,6 +1,6 @@
 {
   "name": "atom-message-panel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An easy way to display your messages in Atom",
   "main": "index.js",
   "scripts": {
