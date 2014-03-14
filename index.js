@@ -13,10 +13,13 @@ module.exports = {
             .html(title)
             .appendTo(panel);
 
-        $('<button />')
-            .addClass('close')
-            .css('margin-top', '-5px')
-            .html('&times;')
+
+        $('<div />')
+            .addClass('icon-x pull-right')
+            .css({
+                'color': '#aaa',
+                'cursor': 'pointer'
+            })
             .click(this.destroy)
             .appendTo($('.panel-heading', panel));
 
