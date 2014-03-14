@@ -2,7 +2,7 @@
 
 > An easy way to display your messages in [Atom](http://atom.io).
 
-![](https://dl.dropboxusercontent.com/u/2714001/atom-message-panel.jpg)
+![](preview.png)
 
 ## Usage example
 
