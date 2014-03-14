@@ -29,6 +29,10 @@ init(title)
 clear()
 // Removes your panel from this world
 destroy()
+// Only show the panel header, with the latest appended child (header, message or lineMessage)
+fold(speed)
+// Back to normal
+unfold(speed)
 // Adds a big nice header
 append.header(text, className)
 // Tell the people what your fell

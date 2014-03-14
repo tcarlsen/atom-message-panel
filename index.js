@@ -24,6 +24,27 @@ module.exports = {
             .appendTo($('.panel-heading', panel));
 
         $('<div />')
+            .addClass('icon-fold pull-right')
+            .css({
+                'color': '#aaa',
+                'margin-right': '8px',
+                'cursor': 'pointer'
+            })
+            .click(['fast'], this.fold)
+            .appendTo($('.panel-heading', panel));
+
+        $('<a />')
+            .addClass('icon-unfold pull-right')
+            .css({
+                'color': '#aaa',
+                'margin-right': '8px',
+                'cursor': 'pointer',
+                'display': 'none'
+            })
+            .click(['fast'], this.unfold)
+            .appendTo($('.panel-heading', panel));
+
+        $('<div />')
             .addClass('panel-body padded')
             .css({
                 'max-height': '170px',
@@ -31,17 +52,51 @@ module.exports = {
             })
             .appendTo(panel);
 
+        $('<div />')
+            .addClass('icon-dash')
+            .css({
+                'margin-left': '10px',
+                'display': 'none'
+            })
+            .appendTo($('.panel-heading', panel));
+
+        $('<div />')
+            .addClass('panel-fold-body')
+            .css({
+                'display': 'none'
+            })
+            .appendTo($('.panel-heading', panel));
+
         atom.workspaceView.prependToBottom(panel);
     },
     clear: function () {
         'use strict';
 
         $('.am-panel .panel-body').html('');
+        $('.am-panel .panel-fold-body')
+            .html('')
+            .attr('class', 'panel-fold-body')
+            .css('cursor', 'text')
+            .unbind();
     },
     destroy: function () {
         'use strict';
 
         $('.am-panel').remove();
+    },
+    fold: function (speed) {
+        'use strict';
+
+        $('.am-panel .icon-unfold, .am-panel .icon-fold').toggle();
+        $('.am-panel .panel-fold-body, .am-panel .icon-dash').css('display', 'inline-block');
+        $('.am-panel .panel-body').hide(speed);
+    },
+    unfold: function (speed) {
+        'use strict';
+
+        $('.am-panel .icon-unfold, .am-panel .icon-fold').toggle();
+        $('.am-panel .panel-fold-body, .am-panel .icon-dash').hide();
+        $('.am-panel .panel-body').show(speed);
     },
     append: {
         header: function (text, className) {
@@ -51,6 +106,10 @@ module.exports = {
                 .addClass(className)
                 .html(text)
                 .appendTo('.am-panel .panel-body');
+
+            $('.am-panel .panel-fold-body')
+                .addClass(className)
+                .html(text);
         },
         message: function (msg, className) {
             'use strict';
@@ -59,6 +118,10 @@ module.exports = {
                 .addClass('block ' + className)
                 .html(msg)
                 .appendTo('.am-panel .panel-body');
+
+            $('.am-panel .panel-fold-body')
+                .addClass(className)
+                .html(msg);
         },
         lineMessage: function (line, character, msg, preview, className) {
             'use strict';
@@ -86,6 +149,13 @@ module.exports = {
                 .html(preview)
                 .click(goToLine)
                 .appendTo('.am-panel .panel-body');
+
+
+            $('.am-panel .panel-fold-body')
+                .addClass(className)
+                .css('cursor', 'pointer')
+                .click(goToLine)
+                .html(String(line) + ', ' + String(character) + ' ' + msg);
         },
         lineIndicators: function (lines, className) {
             'use strict';
