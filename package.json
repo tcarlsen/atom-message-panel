@@ -2,7 +2,7 @@
   "name": "atom-message-panel",
   "version": "0.3.0",
   "description": "An easy way to display your messages in Atom",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
