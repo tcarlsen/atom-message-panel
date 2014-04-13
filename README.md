@@ -49,6 +49,7 @@ messages.add new LineMessageView line: 1, character: 4, message: 'You haven\'t h
  * `new MessagePanelView(params)`:
   - `title`: the title of your panel
   - `rawTitle`: sat to `true` will allow the title to contains HTML *(default is false)*
+  - `closeMethod`: What should the close button do? `detach` *(default)* or `hide`.
   - `speed`: how fast you what the fold/unfold function to run *(default is fast)*
  * `attach()`: append the panel to the Atom view
  * `close()`: closses the panel
