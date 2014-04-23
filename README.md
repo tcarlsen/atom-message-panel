@@ -1,5 +1,7 @@
 # The Atom Message Panel
 
+[![Gitter chat](https://badges.gitter.im/tcarlsen/atom-message-panel.png)](https://gitter.im/tcarlsen/atom-message-panel)
+
 > The easy way to display your messages in [Atom](http://atom.io).
 
 ![preview](https://cloud.githubusercontent.com/assets/145288/2628677/25f9ba7a-be2b-11e3-9780-8172cf7ea292.png)
