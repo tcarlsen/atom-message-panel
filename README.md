@@ -75,6 +75,7 @@ messages.add new LineMessageView line: 1, character: 4, message: 'You haven\'t h
   * `LineMessageView(params)`:
    - `message`: your message to the people
    - `line`: what line are we talking about?
+   - `file`: so, was that in some other file? *(this is optional)*
    - `character`: lets be more specific of what we are talking about *(this is optional)*
    - `preview`: lets you display a code snippet inside a `pre` tag *(this is optional)*
    - `className`: adding css classes to your message *(this is optional)*
