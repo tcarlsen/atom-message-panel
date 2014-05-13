@@ -52,6 +52,7 @@ messages.add new LineMessageView line: 1, character: 4, message: 'You haven\'t h
   - `title`: the title of your panel
   - `rawTitle`: sat to `true` will allow the title to contains HTML *(default is false)*
   - `speed`: how fast you what the fold/unfold function to run *(default is fast)*
+  - `pane`: do you want the message panel to attach to the active pane instead of the workspaceView *(default is fast)*
  * `attach()`: append the panel to the Atom view
  * `close()`: closses the panel
  * `setTitle()`: change the panel title
