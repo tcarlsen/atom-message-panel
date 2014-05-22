@@ -1,5 +1,7 @@
 # The Atom Message Panel
 
+[![Gitter chat](https://badges.gitter.im/tcarlsen/atom-message-panel.png)](https://gitter.im/tcarlsen/atom-message-panel)
+
 > The easy way to display your messages in [Atom](http://atom.io).
 
 ![preview](https://cloud.githubusercontent.com/assets/145288/2628677/25f9ba7a-be2b-11e3-9780-8172cf7ea292.png)
@@ -74,6 +76,7 @@ messages.add new LineMessageView line: 1, character: 4, message: 'You haven\'t h
   * `LineMessageView(params)`:
    - `message`: your message to the people
    - `line`: what line are we talking about?
+   - `file`: so, was that in some other file? *(this is optional)*
    - `character`: lets be more specific of what we are talking about *(this is optional)*
    - `preview`: lets you display a code snippet inside a `pre` tag *(this is optional)*
    - `className`: adding css classes to your message *(this is optional)*
