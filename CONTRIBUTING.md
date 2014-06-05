@@ -10,6 +10,8 @@
 
 **Submitting Pull Requests:**
 
+You can use [amp-tester](https://github.com/tcarlsen/amp-tester), to make sure that your PR is working properly!
+
  * No trailing whitespace. Blank lines should not have any space.
  * Two spaces, no tabs.
  * Prefer &&/|| over and/or.
