@@ -1,4 +1,14 @@
 
+1.1.0 / 2014-06-16
+==================
+
+ * adding ref to amp-tester
+ * adding editorconfig file
+ * adding ability to attach to the active pane
+ * Support file change when no active editors are open
+ * Add support for specific files in LineMessageView
+ * adding gitter link
+
 1.0.0 / 2014-04-07
 ==================
 
