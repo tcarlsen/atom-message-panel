@@ -51,7 +51,9 @@ messages.add new LineMessageView line: 1, character: 4, message: 'You haven\'t h
  * `new MessagePanelView(params)`:
   - `title`: the title of your panel
   - `rawTitle`: sat to `true` will allow the title to contains HTML *(default is false)*
+  - `closeMethod`: What should the close button do? `detach` *(default)* or `hide`.
   - `speed`: how fast you what the fold/unfold function to run *(default is fast)*
+  - `pane`: attach to the active pane instead of the workspaceView *(default is false)* *(note: going into split-screen after amp have been activated, amp will stay at the pane it was activated on. see this [example](http://gfycat.com/UntimelyObedientGrub))*
  * `attach()`: append the panel to the Atom view
  * `close()`: closses the panel
  * `setTitle()`: change the panel title
@@ -75,6 +77,7 @@ messages.add new LineMessageView line: 1, character: 4, message: 'You haven\'t h
   * `LineMessageView(params)`:
    - `message`: your message to the people
    - `line`: what line are we talking about?
+   - `file`: so, was that in some other file? *(this is optional)*
    - `character`: lets be more specific of what we are talking about *(this is optional)*
    - `preview`: lets you display a code snippet inside a `pre` tag *(this is optional)*
    - `className`: adding css classes to your message *(this is optional)*
