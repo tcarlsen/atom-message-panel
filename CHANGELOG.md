@@ -1,4 +1,10 @@
 
+1.1.2 / 2014-10-09
+==================
+
+  * Add link to "They use it!" wiki page in README
+  * fix summary raw in fold mode
+
 1.1.1 / 2014-06-19
 ==================
 
