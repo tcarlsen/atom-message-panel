@@ -10,6 +10,8 @@
 
 To streamline how plugin messages are displayed in Atom! :fist:
 
+[Checkout this list of packages already using Atom Message Panel.](https://github.com/tcarlsen/atom-message-panel/wiki/They-use-it!)
+
 ## Usage
 
 **JavaScript:**
