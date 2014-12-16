@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/tcarlsen/atom-message-panel/issues"
   },
+  "dependencies": {
+    "space-pen": "^4"
+  },
   "homepage": "https://github.com/tcarlsen/atom-message-panel"
 }
