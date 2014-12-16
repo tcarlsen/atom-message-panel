@@ -1,4 +1,11 @@
 
+1.1.3 / 2014-12-16
+==================
+
+  * Remove Pane Option In :abc:
+  * Fix Deprecations
+  * Use spacePenView
+
 1.1.2 / 2014-10-09
 ==================
 
