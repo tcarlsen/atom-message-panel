@@ -56,7 +56,7 @@ messages.add new LineMessageView line: 1, character: 4, message: 'You haven\'t h
   - `closeMethod`: What should the close button do? `detach` *(default)* or `hide`.
   - `speed`: how fast you what the fold/unfold function to run *(default is fast)*
  * `attach()`: append the panel to the Atom view
- * `close()`: closses the panel
+ * `close()`: closes the panel
  * `setTitle()`: change the panel title
  * `toggle()`: fold/unfold the panel
  * `clear()`: clear the body
