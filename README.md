@@ -37,11 +37,15 @@ messages.add(new PlainMessageView({
 ```coffeescript
 {MessagePanelView, LineMessageView} = require 'atom-message-panel'
 
-messages = new MessagePanelView title: 'Remember your Coffee!'
+messages = new MessagePanelView 
+    title: 'Remember your Coffee!'
 
 messages.attach()
 
-messages.add new LineMessageView line: 1, character: 4, message: 'You haven\'t had a single drop of coffee since this character'
+messages.add new LineMessageView 
+    line: 1
+    character: 4
+    message: 'You haven\'t had a single drop of coffee since this character'
 ```
 
 ## API
