@@ -57,7 +57,7 @@ messages.add new LineMessageView line: 1, character: 4, message: 'You haven\'t h
   - `speed`: how fast you what the fold/unfold function to run *(default is fast)*
  * `attach()`: append the panel to the Atom view
  * `close()`: closes the panel
- * `setTitle()`: change the panel title
+ * `setTitle(title:string,raw?:boolean)`: change the panel title
  * `toggle()`: fold/unfold the panel
  * `clear()`: clear the body
  * `add()`: add a view to the panel
