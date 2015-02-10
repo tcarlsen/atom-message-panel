@@ -18,6 +18,10 @@
     "message"
   ],
   "author": "tcarlsen",
+  "contributors": [
+    "joefitzgerald",
+    "fangel"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tcarlsen/atom-message-panel/issues"
