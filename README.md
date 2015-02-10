@@ -61,6 +61,7 @@ messages.add new LineMessageView
   - `speed`: how fast you what the fold/unfold function to run *(default is fast)*
   - `recentMessagesAtTop`: should new messages be added at the top? *(default is false)*
   - `position`: should the panel attach to the "top" or the "bottom" *(default is bottom)*
+  - `maxHeight`: set a max-height of the panel body *(default is 170px)*
  * `attach()`: append the panel to the Atom view
  * `close()`: closes the panel
  * `setTitle(title:string,raw?:boolean)`: change the panel title
