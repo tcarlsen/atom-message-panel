@@ -55,6 +55,7 @@ messages.add new LineMessageView line: 1, character: 4, message: 'You haven\'t h
   - `rawTitle`: sat to `true` will allow the title to contains HTML *(default is false)*
   - `closeMethod`: What should the close button do? `detach` *(default)* or `hide`.
   - `speed`: how fast you what the fold/unfold function to run *(default is fast)*
+  - `maxHeight`: set a max-height of the panel body *(default is 170px)*
  * `attach()`: append the panel to the Atom view
  * `close()`: closes the panel
  * `setTitle(title:string,raw?:boolean)`: change the panel title
