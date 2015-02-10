@@ -37,12 +37,12 @@ messages.add(new PlainMessageView({
 ```coffeescript
 {MessagePanelView, LineMessageView} = require 'atom-message-panel'
 
-messages = new MessagePanelView 
+messages = new MessagePanelView
     title: 'Remember your Coffee!'
 
 messages.attach()
 
-messages.add new LineMessageView 
+messages.add new LineMessageView
     line: 1
     character: 4
     message: 'You haven\'t had a single drop of coffee since this character'
@@ -59,6 +59,9 @@ messages.add new LineMessageView
   - `rawTitle`: sat to `true` will allow the title to contains HTML *(default is false)*
   - `closeMethod`: What should the close button do? `detach` *(default)* or `hide`.
   - `speed`: how fast you what the fold/unfold function to run *(default is fast)*
+  - `recentMessagesAtTop`: should new messages be added at the top? *(default is false)*
+  - `position`: should the panel attach to the "top" or the "bottom" *(default is bottom)*
+  - `maxHeight`: set a max-height of the panel body *(default is 170px)*
  * `attach()`: append the panel to the Atom view
  * `close()`: closes the panel
  * `setTitle(title:string,raw?:boolean)`: change the panel title
