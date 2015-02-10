@@ -1,6 +1,6 @@
 {
   "name": "atom-message-panel",
-  "version": "1.1.1",
+  "version": "1.1.4",
   "description": "An easy way to display your messages in Atom",
   "main": "lib/index.js",
   "scripts": {
@@ -21,6 +21,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tcarlsen/atom-message-panel/issues"
+  },
+  "dependencies": {
+    "space-pen": "^4"
   },
   "homepage": "https://github.com/tcarlsen/atom-message-panel"
 }

@@ -1,4 +1,22 @@
 
+1.1.4 / 2014-12-18
+==================
+
+  * Fix Close Function, Manage Panel Correctly
+
+1.1.3 / 2014-12-16
+==================
+
+  * Remove Pane Option In :abc:
+  * Fix Deprecations
+  * Use spacePenView
+
+1.1.2 / 2014-10-09
+==================
+
+  * Add link to "They use it!" wiki page in README
+  * fix summary raw in fold mode
+
 1.1.1 / 2014-06-19
 ==================
 
