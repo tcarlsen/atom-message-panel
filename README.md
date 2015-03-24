@@ -1,4 +1,4 @@
-# The Atom Message Panel <img src="http://npm.packagequality.com/badge/atom-message-panel.png" align="right" height="45px">
+# The Atom Message Panel <a href="http://packagequality.com/#?package=atom-message-panel" target="_blank"><img src="http://npm.packagequality.com/badge/atom-message-panel.png" align="right" height="45px"></a>
 
 ![npm downloads](https://img.shields.io/npm/v/atom-message-panel.svg)
 ![npm downloads](https://img.shields.io/npm/l/atom-message-panel.svg)
