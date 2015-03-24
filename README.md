@@ -1,6 +1,9 @@
-# The Atom Message Panel
+# The Atom Message Panel <img src="http://npm.packagequality.com/badge/atom-message-panel.png" align="right" height="45px">
 
-[![Gitter chat](https://badges.gitter.im/tcarlsen/atom-message-panel.png)](https://gitter.im/tcarlsen/atom-message-panel)
+![npm downloads](https://img.shields.io/npm/v/atom-message-panel.svg)
+![npm downloads](https://img.shields.io/npm/l/atom-message-panel.svg)
+![npm downloads](https://img.shields.io/npm/dm/atom-message-panel.svg)
+[![Gitter chat](https://badges.gitter.im/tcarlsen/atom-message-panel.png)](https://gitter.im/tcarlsen/atom-message-panel) 
 
 > The easy way to display your messages in [Atom](http://atom.io).
 
