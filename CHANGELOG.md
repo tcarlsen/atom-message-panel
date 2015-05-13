@@ -1,4 +1,9 @@
 
+1.2.4 / 2015-05-13
+==================
+
+  * fix deprecate api call (getActiveEditor->getActiveTextEditor)
+
 1.2.3 / 2015-05-04
 ==================
 
