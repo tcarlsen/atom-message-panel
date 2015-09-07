@@ -29,5 +29,9 @@
   "dependencies": {
     "space-pen": "^4"
   },
+  "devDependencies": {
+    "temp": ">= 0.8.1",
+    "deep-equal": ">= 1.0.0"
+  },
   "homepage": "https://github.com/tcarlsen/atom-message-panel"
 }
