@@ -27,7 +27,7 @@
     "url": "https://github.com/tcarlsen/atom-message-panel/issues"
   },
   "dependencies": {
-    "space-pen": "^4"
+    "atom-space-pen-views": "^2.2.0"
   },
   "homepage": "https://github.com/tcarlsen/atom-message-panel"
 }
