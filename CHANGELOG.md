@@ -1,4 +1,12 @@
 
+1.2.5 / 2016-06-13
+==================
+
+  * clear summary on clear
+  * simplifying get file path
+  * fixing goToLine
+  * replace space-pen with atom-space-pen-views
+
 1.2.4 / 2015-05-13
 ==================
 
