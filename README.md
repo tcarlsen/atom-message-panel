@@ -69,6 +69,7 @@ messages.add new LineMessageView
  * `close()`: closes the panel
  * `setTitle(title:string,raw?:boolean)`: change the panel title
  * `toggle()`: fold/unfold the panel
+ * `unfold()`: unfold the panel
  * `clear()`: clear the body
  * `add()`: add a view to the panel
 
