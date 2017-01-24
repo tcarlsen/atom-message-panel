@@ -17,4 +17,4 @@ You can use [amp-tester](https://github.com/tcarlsen/amp-tester), to make sure t
  * Prefer &&/|| over and/or.
  * Validate with [JSLint](http://jslint.com). *([JSLint for Atom](https://atom.io/packages/jslint))*
  * End files with a newline.
- * API changes should be updated in the README aswell
+ * API changes should be updated in the README as well
