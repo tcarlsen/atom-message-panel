@@ -1,4 +1,14 @@
 
+1.3.0 / 2017-01-24
+==================
+
+  * fixing #80 - allow height adjustment even through max height is set
+  * adding state function
+  * minor adjustments
+  * allow positions "left" and "right" for MessagePanelView
+  * adding remove prototype
+  * add unfold
+
 1.2.5 / 2016-06-13
 ==================
 
