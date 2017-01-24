@@ -73,6 +73,7 @@ messages.add new LineMessageView
  * `clear()`: clear the body
  * `add()`: add a view to the panel
  * `remove(index)`: remove a view from the panel
+ * `state()`: get current state informations about your panel
 
 **PlainMessageView:**
 
