@@ -60,7 +60,7 @@ messages.add new LineMessageView
  * `new MessagePanelView(params)`:
   - `title`: the title of your panel
   - `rawTitle`: sat to `true` will allow the title to contains HTML *(default is false)*
-  - `closeMethod`: What should the close button do? `detach` *(default)* or `hide`.
+  - `closeMethod`: What should the close button do? `hide` *(default)* or `destroy`.
   - `speed`: how fast you what the fold/unfold function to run *(default is fast)*
   - `recentMessagesAtTop`: should new messages be added at the top? *(default is false)*
   - `position`: should the panel attach to the "top", "bottom", "left" or "right" *(default is bottom)*
