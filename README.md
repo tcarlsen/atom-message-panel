@@ -63,7 +63,7 @@ messages.add new LineMessageView
   - `closeMethod`: What should the close button do? `detach` *(default)* or `hide`.
   - `speed`: how fast you what the fold/unfold function to run *(default is fast)*
   - `recentMessagesAtTop`: should new messages be added at the top? *(default is false)*
-  - `position`: should the panel attach to the "top" or the "bottom" *(default is bottom)*
+  - `position`: should the panel attach to the "top", "bottom", "left" or "right" *(default is bottom)*
   - `maxHeight`: set a max-height of the panel body *(default is 170px)*
  * `attach()`: append the panel to the Atom view
  * `close()`: closes the panel
